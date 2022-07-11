@@ -1,0 +1,30 @@
+.tarjetas{
+    display: flex;
+flex-direction: wrap;
+margin: 10px;
+}
+
+.card-content {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgreen;
+    background-color: darkgray
+}
+
+.card-image .card-title {
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: bold;
+    
+
+}
+.section{ background-color: black;
+}
+ .mi-estilo-nav{
+    background-color: black;
+
+}
+.mi-estilo-footer{
+    background-color: black;
+}
+ 
