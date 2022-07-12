@@ -1,7 +1,11 @@
-.tarjetas{
+#tarjetas{
     display: flex;
 flex-direction: wrap;
 margin: 10px;
+}
+.row{
+    width: auto;
+    height: 400vh;
 }
 
 .card-content {

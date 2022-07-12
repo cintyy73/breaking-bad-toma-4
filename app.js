@@ -16,10 +16,10 @@ const printData = (arr) => {
         const img = arr[i].img
         const nickname = arr[i].nickname
         const status = arr[i].status
-        str = str + `
+        str = str + 
  
-     <div class="row">
-        <div class="col s12 m6">
+    ` <div class="row">
+        <div class="col-4 s12 m6">
           <div class="card">
             <div class="card-image">
               <img src="${img}">
@@ -30,8 +30,8 @@ const printData = (arr) => {
             </div>
           </div>
         </div>
-      </div>
-       `
+      </div>`
+       
          
     }
     tarjetas.innerHTML=str;
